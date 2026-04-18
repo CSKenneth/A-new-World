@@ -1,0 +1,369 @@
+{
+    "Title": "A New World",
+    "Credits": "Created by Kenneth Tran(ktran111@ucsc.edu).",
+    "InitialLocation": "The first Dream",
+    "Locations": {
+        "The first Dream": {
+            "Body": "Feeling as if you have woken up from a long dream you hear a voice. Ah, have you awoken Master. Do you wish to go for a Walk?",
+            "Choices": [
+                {
+                    "Text": "Walk",
+                    "Target": "walk"
+                }
+            ]
+        },
+        "walk": {
+            "Body": "As you get out of bed and head out the front door you see a mysterious glow in the distance. Filled with curiosity and a sense of familiarity you head closer to the light.",
+            "Choices": [
+                {
+                    "Text": "continue",
+                    "Target": "walking continued"
+                }
+            
+            ]
+        },
+        "walking continued": {
+            "Body": "You find yourself infront of a Glowing Portal calling out your name. You find yourself wanting to enter but unsure of where it leads.",
+            "Choices": [
+                {
+                    "Text": "Enter",
+                    "Target": "enter portal"
+                },
+                {
+                    "Text": "Go to bed",
+                    "Target": "Back to bed"
+                }
+            ]
+        },
+        "Portal": {
+            "Body": "As you walk up to this bright glow you see a glowing portal.",
+            "Choices": [
+                {
+                    "Text": "Enter Portal",
+                    "Target": "enter portal"
+                },
+                {
+                    "Text": "Go to bed",
+                    "Target": "Back to bed"
+                }
+            ]
+        },
+        "Back to bed": {
+            "Body": "Even with all the temptation you head back to your home and back to bed wondering if what you saw was a dream or reality.",
+            "Choices": [
+                {
+                    "Text": "End",
+                    "Target": "end"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Portal"
+                }
+            ]
+        },
+        "enter portal": {
+            "Body": "You enter the portal and wake up in a daze unknown where you are.",
+            "Choices": [
+                {
+                    "Text": "Look Around",
+                    "Target": "senses"
+                },
+                {
+                    "Text": "Feel The Ground",
+                    "Target": "feel"
+                }
+            ]
+        },
+        "senses": {
+            "Body": "Still in a Daze you try to look around but all you see is a green blur and a bright sky. Unsure of what is in front of you, you try to wak foward but feel dizzy and fall to the ground.",
+            "Choices": [
+                {
+                    "Text": "Wait till vision clears up",
+                    "Target": "Wait"
+                },
+                {
+                    "Text": "",
+                    "Target": " "
+                }
+            ]
+        },
+         "feel": {
+            "Body": "As you blindly touch around moving your hands and arms all around still unsure of what awaits. You feel a soft ground at first but as you continue feeling around you find a ledge but unsure of what it is.",
+            "Choices": [
+                {
+                    "Text": "Wait for yourself to recover",
+                    "Target": "Wait"
+                },
+                {
+                    "Text": "Head past the ledge",
+                    "Target": "past ledge"
+                }
+            ]
+        },
+        "Wait": {
+            "Body": "You lay down on what feels to be a soft ground waiting for yourself to recover.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "continue recover"
+                }
+            ]
+        },
+        "continue recover": {
+            "Body": "After recoving you see a vast grassland spanning for miles.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "grasslands"
+                }
+            ]
+        },
+        "grasslands": {
+            "Body": "In the distance you see a tower of sorts. To your left you see a cave leading to unknown depths.",
+            "Choices": [
+                {
+                    "Text": "Head to tower",
+                    "Target": "tower"
+                },
+                {
+                    "Text": "Head left and Jump into cave",
+                    "Target": "ledge"
+                }
+            ]
+        },
+         "past ledge": {
+            "Body": "You begin going past the ledge and begin falling and falling.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "ledge"
+                }
+            ]
+        },
+            "ledge": {
+            "Body": "As you are falling you see many bats and surounding rocks. Looking down you also see a small body of water. You hope you can somehow aim for that spot. For someodd reason just this one time, time seems to feel slow giving you as much time as you need to think.",
+            "Choices": [
+                {
+                    "Text": "Grab on to the rocks",
+                    "Target": "rock"
+                },
+                {
+                    "Text": "Aim for the lake",
+                    "Target": "lake"
+                }
+            ]
+        },
+        "lake": {
+            "Body": "As you try to aim for the lake you miss and meet a sudden end",
+            "Choices": [
+                {
+                    "Text": "Retry",
+                    "Target": "ledge"
+                },
+                {
+                    "Text": "The end",
+                    "Target": "end"
+                }
+            ]
+        },
+            "rock": {
+            "Body": "You end up somehow reaching the nearest rock but now you are hanging there.",
+            "Choices": [
+                {
+                    "Text": "Continue falling",
+                    "Target": "falling"
+                },
+                {
+                    "Text": "Climb down",
+                    "Target": "climb down"
+                }
+            ]
+        },
+        "falling": {
+            "Body": "Unknow why you decide to continue falling and hit the ground meeting a sudden end",
+            "Choices": [
+                {
+                    "Text": "Retry",
+                    "Target": "rock"
+                },
+                {
+                    "Text": "The End",
+                    "Target": "end"
+                }
+            ]
+        },
+         "climb down": {
+            "Body": "You look around and reach for the next rock making your way down slowly. As the old saying goes \"slow and steady wins the race\".",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "Continue down"
+                }
+            ]
+        },
+            "Continue down": {
+            "Body": "You reach the ground looking at the lake next to you and notice a shin in the lake. As you look around you see a door.",
+            "Choices": [
+                {
+                    "Text": "Take a swim",
+                    "Target": "Swim"
+                },
+                {
+                    "Text": "door",
+                    "Target": "door"
+                }
+            ]
+        },
+            "Swim": {
+            "Body": "You swim to the bottom of the lake.",
+            "Choices": [
+                {
+                    "Text": "pick up key",
+                    "Target": "swim up"
+                    
+                   
+                }
+                
+            ]
+            
+        },
+
+         "swim up": {
+            "Body": "You swim back up from the lake and see a door",
+            "Choices": [
+                {
+                    "Text": "open door",
+                    "Target": "next door"
+                    
+                }
+            ]
+        },
+         "next door": {
+            "Body": "You enter the door and move alone a pathway somehow finding your way back to the surface.",
+            "Choices": [
+                {
+                    "Text": "continue",
+                    "Target": "grasslands"
+                }
+                
+            ]
+        },
+         "tower": {
+            "Body": "You walk towards the tower and see a locked door",
+            "Choices": [
+                
+                {
+                    "Text": "Head back",
+                    "Target": "grasslands"
+                }
+            ],
+                "altChoice": [
+                    {
+                    "Text": "Open Door",
+                    "Target": "open door",
+                    "requires":"swim up"
+         }]
+        },
+        "open door": {
+            "Body": "opening door",
+            "Choices": [
+                {
+                    "Text": "As you open the door you see a dusty room filled with scrolls and random unknown spheres",
+                    "Target": "Continue Tower"
+                }
+            ]
+        },
+           "Continue Tower": {
+            "Body": "To your left you see a stair case heading up the tower and to the right you see a stair case heading down the tower",
+            "Choices": [
+                {
+                    "Text": "Head left",
+                    "Target": "left up"
+                },
+                {
+                    "Text": "Head right",
+                    "Target": "right down"
+                },
+                {
+                    "Text": "Head out the door",
+                    "Target": "tower"
+                }
+            ]
+        },
+        
+            "left up": {
+            "Body": "You head up the stairs and see a big glowing sphere with a button near it",
+            "Choices": [
+                {
+                    "Text": "Press button",
+                    "Target": "Button"
+                },
+                {
+                    "Text": "Head back down",
+                    "Target": "Continue Tower"
+                }
+            ]
+        },
+        
+            "Button": {
+            "Body": "You walk up and click the button creating and suddenly you start hearing gears and small noises coming from the tower.",
+            "Choices": [
+                {
+                    "Text": "........",
+                    "Target": "button continue"
+                }
+            ]
+        },
+        
+            "button continue": {
+            "Body": "The sphere in front of you starts to play a message<br><br>You the drifter.... I have been waiting for you<br><br>You who have wondered into this world a drifter a being with the abilites to traverse world I welcome you<br><br> Your purpose though unknown see it all and finally create a NEW WORLD<br><br>A PARADISE<br><br>A UTOPIA<br><br> In the basement I have left you a gift a book containing knowledge of how to control your powers and the key to exploring new worlds.<br><br>I bid you farewell oh drifter...<br><br>",
+            "Choices": [
+                {
+                    "Text": "Head back down",
+                    "Target": "Continue Tower"
+                }
+            ]
+        },
+         "right down": {
+            "Body": "You head down the stairs and see a tome of sorts",
+            "Choices": [
+                {
+                    "Text": "Open tome",
+                    "Target": "Open tome"
+                },
+                {
+                    "Text": "Head Back",
+                    "Target": "Tower Continue"
+                }
+            ]
+        },
+            "Open tome": {
+            "Body": "As you open the tome your mind becomes filled with knowledge unfamiliar to you",
+            "Choices": [
+                {
+                    "Text": "Use knowledge",
+                    "Target": "Use"
+                },
+                {
+                    "Text": "Head Back",
+                    "Target": "Tower Continue"
+                }
+            ]
+        },
+            "Use": {
+            "Body": "You use the unknown knowledge and open a portal leading to another world and haed in as if being called....",
+            "Choices": [
+                {
+                    "Text": "The end",
+                    "Target": "end"
+                }
+            ]
+        },
+
+
+        "end": {
+            "Body": ""
+
+        }
+    }
+}
